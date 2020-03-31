@@ -1,0 +1,16 @@
+apiVersion: v1
+entries:
+  mpod:
+  - apiVersion: v1
+    appVersion: 1.16.0
+    created: "2020-03-31T14:42:57.662212004+08:00"
+    description: A Helm chart for Kubernetes
+    digest: 9a935cfa5e22f5973d5435e608cbc85b9fc0f870a212c00a6269da0941a68d7d
+    keywords:
+    - mpod
+    name: mpod
+    type: application
+    urls:
+    - mpod-1.0.0.tgz
+    version: 1.0.0
+generated: "2020-03-31T14:42:57.661808223+08:00"
