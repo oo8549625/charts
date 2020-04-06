@@ -12,6 +12,10 @@ spec:
       labels:
        app: deployment
     spec:
+{{- if .Values.nodeSelector }}
+      nodeSelector:
+        {{ toYaml .Values.nodeSelector}}
+{{- end }}
       containers:
         - name: fbuilder
           image: {{ .Values.image.repository.fbuilder}}
